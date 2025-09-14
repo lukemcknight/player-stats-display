@@ -65,7 +65,7 @@ const App = () => {
         gameDate: date
       },
       headers: {
-        'x-rapidapi-key': 'c1a0bf9d10msh7c951b21baaaf02p1de69bjsn95eef6c80448',
+        'x-rapidapi-key': process.env.API_KEY,
         'x-rapidapi-host': 'tank01-nfl-live-in-game-real-time-statistics-nfl.p.rapidapi.com'
       }
     };
@@ -89,7 +89,7 @@ const App = () => {
           gameID: gameId,
         },
         headers: {
-          'x-rapidapi-key': 'c1a0bf9d10msh7c951b21baaaf02p1de69bjsn95eef6c80448',
+          'x-rapidapi-key': API_KEY,
           'x-rapidapi-host': 'tank01-nfl-live-in-game-real-time-statistics-nfl.p.rapidapi.com'
         }
     };
